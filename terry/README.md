@@ -1,4 +1,6 @@
+# Terry (the Tri-omniwheeled holonomic robot)
 
+[Lego Assembly Instructions](./lego_assembly/README.md)
 
 Repositories:
 BrickPi3: https://github.com/jfrancis71/ros2_brickpi3
