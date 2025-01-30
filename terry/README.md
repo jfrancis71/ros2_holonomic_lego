@@ -1,6 +1,8 @@
 # Terry (the tri-omniwheeled holonomic robot)
 
-## Overview
+<img src=./images/pose.jpg width=200>
+
+## Summary
 
 Terry is a demonstration tri-omniwheeled robot running ROS2 on a Raspberry Pi. He is built using Lego and EV3 motors with the Dexter Industries BrickPi3+ providing the hardware interface from the Raspberry Pi to the EV3 motors. The terry package demonstrates how to configure the following two packages together to create a working robot:
 
