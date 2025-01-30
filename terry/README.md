@@ -11,9 +11,12 @@ Terry is a demonstration tri-omniwheeled robot running ROS2 on a Raspberry Pi. H
 - The brickpi3_motors package, available from (https://github.com/jfrancis71/ros2_brickpi3), listens to these motor velocity commands and instructs the BrickPi3 hardware to rotate the motors correspondingly.
 (Disclosure: I am the author of the ROS2 BrickPi3 package).
 
-The Omniwheels are not a Lego product, my recollection is that I purchased them from: https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt
 
 ## Lego Assembly
+
+The Omniwheels are not a Lego product, my recollection is that I purchased them from: https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt. I imagine there would be many other suppliers; check it supports a Lego technic axle.
+
+<img src=./images/omni_wheel.jpg width=100>
 
 [Lego Assembly Instructions](./lego_assembly/README.md)
 
