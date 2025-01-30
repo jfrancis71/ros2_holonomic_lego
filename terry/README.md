@@ -2,25 +2,25 @@
 
 ## Overview
 
-Terry is a demonstration tri omniwheeled robot running ROS2 on a Raspberry Pi. He is built using Lego and EV3 motors with the Dexter Industries BrickPi3+ providing the hardware interface from the Raspberry Pi to the EV3 motors. The terry package demonstrates how to configure the following two packages together to create a working robot.
+Terry is a demonstration tri-omniwheeled robot running ROS2 on a Raspberry Pi. He is built using Lego and EV3 motors with the Dexter Industries BrickPi3+ providing the hardware interface from the Raspberry Pi to the EV3 motors. The terry package demonstrates how to configure the following two packages together to create a working robot:
 
-- A ROS2 omniwheel controller available from (https://github.com/hijimasa/omni_wheel_controller
-) which listens to ROS2 twist messages and, using a configuration file specifying robot geometry, issues ROS2 controller motor velocity commands.
+- A ROS2 omniwheel controller, available from (https://github.com/hijimasa/omni_wheel_controller), which listens to ROS2 twist messages and, using a configuration file specifying robot geometry, issues ROS2 controller motor velocity commands.
 
-- The brickpi3_motors package available from (https://github.com/jfrancis71/ros2_brickpi3) listens to these motor velocity commands and instructs the BrickPi3 hardware to rotate the motors correspondingly.
+- The brickpi3_motors package, available from (https://github.com/jfrancis71/ros2_brickpi3), listens to these motor velocity commands and instructs the BrickPi3 hardware to rotate the motors correspondingly.
 (Disclosure: I am the author of the ROS2 BrickPi3 package).
 
+The Omniwheels are not a Lego product, my recollection is that I purchased them from: https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt
 
 ## Lego Assembly
 
 [Lego Assembly Instructions](./lego_assembly/README.md)
 
-Omniwheel comes from (https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt)
-(Actually I have lost the formal record but that looks right from recollection)
 
 ## Installation
 
 Follow instructions to build ROS2 BrickPi3 at (https://github.com/jfrancis71/ros2_brickpi3)
+
+In the above step I am recommending Robostack ROS2, but if you are using you're own ROS2 install, you should replace the 'mamba install ros-humble-generate-parameter-library' install in the below instructions with what is appropriate for your ROS2 install.
 
 ```
 mamba install ros-humble-generate-parameter-library
@@ -85,6 +85,13 @@ https://www.youtube.com/watch?v=-wzl8XJopgg&t=1756s
 Useful discussion on swap file on Ubuntu:
 https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04
 
+
+Omniwheels:
+https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt
+
+
+Dexter Industries BrickPi3:
+https://www.dexterindustries.com/brickpi-core/
 
 Robot Cheat sheet:
 https://www.theroboticsspace.com/assets/article3/ros2_humble_cheat_sheet2.pdf
