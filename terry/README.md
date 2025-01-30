@@ -67,6 +67,22 @@ This should cause the motors to rotate (briefly):
 ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.1, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
 ```
 
+## Remote Control
+
+To control by keyboard:
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
+To control by joystick:
+
+Note the Omniwheel controller interprets twist messages in metric, so need to scale joystick (otherwise the speed commands will be far to fast for Charlie to be safe with). The below config file is based off the teleop_twist_joy/confix/xbox.config.yaml, but modified to scale linear.x
+
+```ros2 launch teleop_twist_joy teleop-launch.py config_filepath:=./src/ros2_holonomic_lego/terry/config/xeox.config.yaml```
+
+If the Coolie Hat mode is enabled (mode button illuminated red), left/right straffing (direct sideways movement) is controlled by the right analog joystick.
+These settings are specific to a XEOX SL6556 joystick, so you may well need to alter for your own joystick. You can echo the twist topic to verify that the teleop_twist_joy is generating appropriate twist messages for your joystick controls.
+
 
 ## References:
 
