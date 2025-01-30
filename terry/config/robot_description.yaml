@@ -12,7 +12,9 @@ omni_wheel_controller:
 
     use_stamped_vel: false
 
-    omni_wheel_names  : ['PORT_A', 'PORT_B', 'PORT_C']
+    omni_wheel_names  : ['PORT_D', 'PORT_A', 'PORT_B']
+    # Going clockwise, viewed from above starting at front: PORT_D, PORT_A, PORT_B
+
 
     omni_wheel_angle  : [0.0, -2.094, 2.094]
 
