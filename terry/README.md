@@ -14,7 +14,7 @@ Terry is a demonstration tri-omniwheeled robot running ROS2 on a Raspberry Pi. H
 
 ## Lego Assembly
 
-The Omniwheels are not a Lego product, my recollection is that I purchased them from: https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt. I imagine there would be many other suppliers; check it supports a Lego technic axle.
+The Omniwheels are not a Lego product, my recollection is that I purchased them from: https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt. I imagine there would be many other suppliers; check it supports a Lego technic axle. The wheel has diameter 48mm.
 
 <img src=./images/omni_wheel.jpg width=100>
 
@@ -113,6 +113,11 @@ https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstor
 
 Dexter Industries BrickPi3:
 https://www.dexterindustries.com/brickpi-core/
+
+
+Book:
+The Unofficial Lego Technic Builder's Guide, Pawet Sariel Kmiec
+
 
 Robot Cheat sheet:
 https://www.theroboticsspace.com/assets/article3/ros2_humble_cheat_sheet2.pdf
