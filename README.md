@@ -3,7 +3,7 @@ Demos of ROS2 enabled Lego EV3 holonomic robots (on a Raspberry Pi with BrickPi3
 
 Guest starring Terry, the tri-omniwheeled robot:
 
-<img src=./images/pose.jpg width=300>
+<img src=./terry/images/pose.jpg width=300>
 
 [Terry](./terry/README.md)
 
