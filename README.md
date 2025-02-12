@@ -1,4 +1,7 @@
 # ros2_holonomic_lego
+
+Currently in development, hopeful for release mid March 2025.
+
 Demos of ROS2 enabled Lego EV3 holonomic robots (on a Raspberry Pi with BrickPi3 interface)
 
 Guest starring Terry, the tri-omniwheeled robot:
