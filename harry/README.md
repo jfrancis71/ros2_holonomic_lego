@@ -1,10 +1,10 @@
-# Terry (the tri-omniwheeled holonomic robot)
+# Harry (Holonomic Harry)
 
 <img src=./images/pose.jpg width=200>
 
 ## Summary
 
-Terry is a demonstration tri-omniwheeled robot running ROS2 on a Raspberry Pi. He is built using Lego and EV3 motors with the Dexter Industries BrickPi3+ providing the hardware interface from the Raspberry Pi to the EV3 motors. The terry package demonstrates how to configure the following two packages together to create a working robot:
+Harry is a demonstration four omniwheeled robot running ROS2 on a Raspberry Pi. He is built using Lego and EV3 motors with the Dexter Industries BrickPi3+ providing the hardware interface from the Raspberry Pi to the EV3 motors. The harry package demonstrates how to configure the following two packages together to create a working robot:
 
 - A ROS2 omniwheel controller, available from (https://github.com/hijimasa/omni_wheel_controller), which listens to ROS2 twist messages and, using a configuration file specifying robot geometry, issues ROS2 controller motor velocity commands.
 
@@ -16,7 +16,7 @@ Terry is a demonstration tri-omniwheeled robot running ROS2 on a Raspberry Pi. H
 
 The Omniwheels are not a Lego product, my recollection is that I purchased them from: https://uk.robotshop.com/products/48mm-omniwheel-compatible-servos-lego-mindstorms-nxt. I imagine there would be many other suppliers; check it supports a Lego technic axle. The wheel has diameter 48mm.
 
-<img src=./images/omni_wheel.jpg width=100>
+<img src=../terry/images/omni_wheel.jpg width=100>
 
 [Lego Assembly Instructions](./lego_assembly/README.md)
 
@@ -59,7 +59,7 @@ source ./install/setup.bash
 
 Activate the motor controller:
 ```
-ros2 launch terry brickpi3_motors_launch.py
+ros2 launch harry brickpi3_motors_launch.py
 ```
 
 This should cause the motors to rotate (briefly):
@@ -76,9 +76,9 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 To control by joystick:
 
-Note the Omniwheel controller interprets twist messages in metric, so need to scale joystick (otherwise the speed commands will be far to fast for Charlie to be safe with). The below config file is based off the teleop_twist_joy/confix/xbox.config.yaml, but modified to scale linear.x
+Note the Omniwheel controller interprets twist messages in metric, so need to scale joystick (otherwise the speed commands will be far to fast for Harry to be safe with). The below config file is based off the teleop_twist_joy/confix/xbox.config.yaml, but modified to scale linear.x
 
-```ros2 launch teleop_twist_joy teleop-launch.py config_filepath:=./src/ros2_holonomic_lego/terry/config/xeox.config.yaml```
+```ros2 launch teleop_twist_joy teleop-launch.py config_filepath:=./src/ros2_holonomic_lego/harry/config/xeox.config.yaml```
 
 If the Coolie Hat mode is enabled (mode button illuminated red), left/right straffing (direct sideways movement) is controlled by the right analog joystick.
 These settings are specific to a XEOX SL6556 joystick, so you may well need to alter for your own joystick. You can echo the twist topic to verify that the teleop_twist_joy is generating appropriate twist messages for your joystick controls.
