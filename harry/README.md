@@ -1,6 +1,6 @@
 # Harry (Holonomic Harry)
 
-<img src=./images/pose.jpg width=200>
+<img src=./images/final_assembly/step_13.jpg width=200>
 
 ## Summary
 
