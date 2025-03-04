@@ -12,13 +12,11 @@ omni_wheel_controller:
 
     use_stamped_vel: false
 
-    omni_wheel_names  : ['PORT_A', 'PORT_B', 'PORT_C', 'PORT_D']
-    # Going clockwise, viewed from above starting at front: PORT_A, PORT_B, PORT_C, PORT_D_
+    omni_wheel_names  : ['PORT_D', 'PORT_A', 'PORT_B', 'PORT_C']
+    # Going clockwise, viewed from above starting at front: PORT_D, PORT_A, PORT_B, PORT_C
+    omni_wheel_angle  : [0.0, -1.57, 3.14, 1.57]
 
-
-    omni_wheel_angle  : [-3.14, -1.57, 0.00, 1.57]
-
-    omni_wheel_distance : -0.12  # Negative because motors are mounted in reverse direction.
+    omni_wheel_distance : 0.12  # Negative because motors are mounted in reverse direction.
     wheel_radius : 0.024
 
     odom_frame_id: odom
