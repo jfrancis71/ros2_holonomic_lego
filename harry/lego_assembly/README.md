@@ -3,10 +3,9 @@
 Best Assembled in order:
 
 1. [Base](./base.md)
-2. [Battery Unit](../../terry/lego_assembly/battery_unit.md)
-3. [Front Mount](../../terry/lego_assembly/front_mount.md)
-4. [Final Assembly](./final_assembly.md)
+2. [Charlie System](https://github.com/jfrancis71/ros2_brickpi3/blob/charliev1/brickpi3_charlie/lego_assembly/system.md)
+3. [Final Assembly](./final_assembly.md)
 
 ## Final Product
 
-<img src=../images/final_assembly/step_13.jpg width=300>
+<img src=../images/final_assembly/step_3.jpg width=300>
