@@ -1,6 +1,6 @@
 # Terry (the tri-omniwheeled holonomic robot)
 
-<img src=./images/final_assembly/step_5.jpg width=200>
+<img src=./images/final_assembly/step_3.jpg width=200>
 
 ## Summary
 
