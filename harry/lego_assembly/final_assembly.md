@@ -3,10 +3,6 @@
 <img src="../images/final_assembly/step_1.jpg" width=300>
 <img src="../images/final_assembly/step_2.jpg" width=300>
 
-Below image is same construction as above, seen from different angle.
-
-<img src="../images/final_assembly/step_2_1.jpg" width=300>
-
 
 Time to wire up...
 
