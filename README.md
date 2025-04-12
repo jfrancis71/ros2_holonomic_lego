@@ -110,6 +110,14 @@ Kinematics of Mobile Robots with Omni Directional Wheels:
 https://www.youtube.com/watch?v=-wzl8XJopgg&t=1756s
 
 
+Mecanum Wheel kinematics:
+https://ecam-eurobot.github.io/Tutorials/mechanical/mecanum.html
+
+
+More on Mecanum kinematics:
+https://invisibleart.pro/2023/08/30/mecanum-wheel/
+
+
 Useful discussion on swap file on Ubuntu:
 https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04
 
