@@ -57,7 +57,7 @@ I recommend having a seperate shell running htop so you can monitor progress. Th
 export MAKEFLAGS="-j 1" # recommended to reduce memory usage.
 ```
 
-Also I suggest adding some temporary swap (I found 2GB perfectly sufficient). See discussion from Digital Ocean in the References section. Don't forget to remove the swapafter a succesful installation. (A swap file on an SD card will reduce card life significantly)
+Also I suggest adding some temporary swap (I found 2GB perfectly sufficient). See discussion from Digital Ocean in the References section. Don't forget to remove the swap after a succesful installation. (A swap file on an SD card will reduce card life significantly)
 
 
 ## Verify Install
@@ -95,9 +95,7 @@ Note the Omniwheel controller interprets twist messages in metric, so need to sc
 
 If the Coolie Hat mode is enabled (mode button illuminated red), left/right straffing
  (direct sideways movement) is controlled by the right analog joystick.
-These settings are specific to a XEOX SL6556 joystick, so you may well need to alter 
-for your own joystick. You can echo the twist topic to verify that the teleop_twist_j
-oy is generating appropriate twist messages for your joystick controls.
+These settings are specific to a XEOX SL6556 joystick, so you may well need to alter for your own joystick. You can echo the twist topic to verify that the teleop_twist_joy is generating appropriate twist messages for your joystick controls.
 
 
 ## Discussion
