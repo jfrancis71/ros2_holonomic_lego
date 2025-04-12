@@ -1,7 +1,5 @@
 # ros2_holonomic_lego
 
-Currently in development, hopeful for release mid March 2025.
-
 Demos of ROS2 enabled Lego EV3 holonomic robots (on a Raspberry Pi with BrickPi3 interface)
 
 ## <B>Guest Starring:</B>
@@ -100,6 +98,14 @@ If the Coolie Hat mode is enabled (mode button illuminated red), left/right stra
 These settings are specific to a XEOX SL6556 joystick, so you may well need to alter 
 for your own joystick. You can echo the twist topic to verify that the teleop_twist_j
 oy is generating appropriate twist messages for your joystick controls.
+
+
+## Discussion
+
+All three robots work well. The holonomic aspect is super fun; however I expect they may struggle on rougher terrain. Holonomic Harry was probably the smoothest, however it is the one with the most complex design.
+
+As the holonomic robots need more motors than their non holonomic counterparts, I think we would benefit from smaller motors and accept the lower power tradeoff (the Lego Technic EV3 motors supply plenty of drive force). However I decided to stick with EV3 motors due to convenient hardware and software support.
+
 
 ## References:
 
