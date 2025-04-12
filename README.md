@@ -13,6 +13,15 @@ Demos of ROS2 enabled Lego EV3 holonomic robots (on a Raspberry Pi with BrickPi3
 [Mike (Mecanum Mike)](./mike/README.md)|<a href="https://www.youtube.com/watch?v=6CFftXhHokY"><img src="https://img.youtube.com/vi/6CFftXhHokY/0.jpg" height=320></a>|<img src=./mike/images/final_assembly/step_5.jpg height=320>|
 
 
+### Tested Hardware
+
+Raspberry Pi 3 Model B+, Dexter Industries BrickPi3
+
+### Tested Software
+
+Ubuntu 22.04, ROS2 Jazzy (RoboStack), BrickPi3
+
+
 ## Installation
 
 All these robots are based on BrickPi3 hardware so: follow instructions to build ROS2 BrickPi3 at (https://github.com/jfrancis71/ros2_brickpi3)
