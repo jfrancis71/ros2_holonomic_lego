@@ -20,7 +20,6 @@ If environment not activated (eg you have logged in again since performing above
 
 ```mamba activate ros2```
 
-In the above step I am recommending Robostack ROS2, but if you are using you're own ROS2 install, you should replace the 'mamba install ros-humble-generate-parameter-library' install in the below instructions with what is appropriate for your ROS2 install.
 
 ```
 cd ~/ros2_ws
@@ -52,13 +51,14 @@ export MAKEFLAGS="-j 1" # recommended to reduce memory usage.
 
 Also I suggest adding some temporary swap (I found 2GB perfectly sufficient). See discussion from Digital Ocean in the References section. Don't forget to remove the swapafter a succesful installation. (A swap file on an SD card will reduce card life significantly)
 
-## Reinitialize Environment
 
+## Verify Install
+
+To reinitialize environment:
 ```
 source ./install/setup.bash
 ```
 
-## Verify Install
 
 Activate the motor controller (replacing PACKAGE_NAME with your robot, eg harry, terry or mike):
 ```
@@ -132,6 +132,9 @@ https://www.dexterindustries.com/brickpi-core/
 
 Book:
 The Unofficial Lego Technic Builder's Guide, Pawet Sariel Kmiec
+
+
+ROS2 Book: Robot Programming with ROS2, Francisco Martin Rico, 2023.
 
 
 Robot Cheat sheet:
