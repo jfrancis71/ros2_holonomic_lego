@@ -1,6 +1,8 @@
-# ros2_holonomic_lego
+# ROS2 Holonomic Lego
 
 Demos of ROS2 enabled Lego EV3 holonomic robots (on a Raspberry Pi with BrickPi3 interface)
+
+This repository does not really contain any software as such (apart from configuration and launch files). It is primarily about demonstrating how to configure existing ROS2 control components to work together to create a working robot. It does contain examples of lego designs for corresponding robots.
 
 ## <B>Guest Starring:</B>
 
