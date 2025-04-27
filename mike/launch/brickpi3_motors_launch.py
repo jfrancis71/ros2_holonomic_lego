@@ -25,8 +25,6 @@ def generate_launch_description():
         executable="spawner",
         arguments=[
             "mecanum_drive_controller",
-            "--param-file",
-            robot_controllers,
             "--controller-ros-args",
             "-r /mecanum_drive_controller/reference:=/cmd_vel",
         ],

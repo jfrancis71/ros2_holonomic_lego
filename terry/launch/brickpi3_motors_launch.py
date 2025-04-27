@@ -25,8 +25,6 @@ def generate_launch_description():
         executable="spawner",
         arguments=[
             "omni_wheel_controller",
-            "--param-file",
-            robot_controllers,
             "--controller-ros-args",
             "-r /omni_wheel_controller/cmd_vel:=/cmd_vel",
         ],
