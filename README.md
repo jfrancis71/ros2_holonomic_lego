@@ -38,7 +38,7 @@ git -C src clone https://github.com/jfrancis71/ros2_holonomic_lego.git
 
 If building either Terry or Harry:
 ```
-git -C src clone -b jazzy https://github.com/jfrancis71/omni_wheel_controller
+git -C src clone -b jazzy https://github.com/hijimasa/omni_wheel_controller
 ```
 
 If building Mike:
